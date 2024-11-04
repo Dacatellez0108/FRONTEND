@@ -32,7 +32,7 @@ body {
 }
 
 footer{
-    background-color: rgba(220, 20, 60, 0.815);
+    background-color: rgba(220, 20, 60, 0.466);
 }
 
 footer .contenedor {
@@ -45,5 +45,5 @@ footer .contenedor {
 footer p{
     margin: 0;
 padding: 15px;
-color: rgba(30, 60, 99, 0.5);
+color: rgba(30, 60, 99, 0.863);
 }
