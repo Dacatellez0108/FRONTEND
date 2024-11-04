@@ -17,7 +17,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="clientes.html">Clientes</a>
+                        <a class="nav-link" aria-current="page" href="Proveedores.html">Proveedores</a>
                         <a class="nav-link" href="">Productos</a>
                         <a class="nav-link" href="">Variedades</a>
                         <a class="nav-link" href="">Tipos</a>
@@ -27,5 +27,34 @@
             </div>
         </nav>
     </header>
+    <section class="container">
+        <div class="row align-items-center mb-4">
+            <span class="fw-bold w-auto">Modulo Proveedores</span>
+            <button class="btn btn-primary w-auto" onclick="window.location ='formProveedores'">Agregar</button>
+        </div>
+        <table class="table">
+            <thead>
+
+                <tr class="table-dark">
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">Documento</th>
+                    <th scope="col">Correo</th>
+                    <th scope="col">Telefono</th>
+                    <th scope="col">Direccion</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="clientes-table">
+            </tbody>
+        </table>
+    </section>
+    <script src="js/request.js"></script>
+    <script src="js/clientes.js"></script>
+    <script>
+        window.onload = function () {
+            mostrarClientes();
+        }
+    </script>
 </body>
 </html>
